@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Introsoft Digital Services</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#intro">Intro</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+            </ul>
+        </nav>
+        <div class="jumbotron">
+            <div class="slider-container">
+                <div class="slider">
+                    <div class="slide active">
+                        <img src="assets/img/image1.png" alt="Image 1">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/img/image2.webp" alt="Image 2">
+                    </div>
+                    <div class="slide">
+                        <img src="assets/img/image3.jpg" alt="Image 3">
+                    </div>
+                </div>
+                <button class="prev" onclick="prevSlide()">&#10094;</button>
+                <button class="next" onclick="nextSlide()">&#10095;</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <article>
+            <div id="content">
+                <article class="card" id="intro">
+                    <h2 class="h2-head">What's Introsoft?</h2>
+                    <p>
+                        Introsoft is your gateway to innovative web solutions. With a passion for cutting-edge technology and a commitment to excellence, we craft digital experiences that leave a lasting impression. Whether it's building robust websites, creating user-friendly interfaces, or developing custom web applications, Introsoft brings your vision to life. Explore the possibilities with Introsoft and step into a world of limitless digital potential.
+                    </p>
+                    <img class="featured-image" src="assets/img/image1.png" alt="sejarah" />
+                </article>
+
+                <article class="card" id="services">
+                    <h2 class="h2-head">What We Offer</h2>
+                    <p>
+                        At Introsoft, we're dedicated to shaping your digital vision into reality. Our comprehensive range of web development services is designed to empower your online presence and drive success. Whether you're a startup or an established enterprise, our team of experts is committed to delivering solutions that make a difference.<br><br>
+                        Our Services:<br><br>
+                        🌐 Web Development: We craft stunning, responsive websites tailored to your unique needs. From simple landing pages to complex e-commerce platforms, we've got you covered.<br><br>
+                        🚀 Custom Solutions: Need a specialized web application? Our developers create custom solutions that streamline your business processes and boost efficiency.<br><br>
+                        🎨 Design Excellence: Our design team brings creativity and functionality together. Expect visually captivating designs that leave a lasting impression.<br><br>
+                        📈 SEO Optimization: Improve your online visibility with our SEO services. Climb the search engine ranks and reach your target audience effectively.<br><br>
+                        🔒 Security: Protect your digital assets with robust security solutions. Your data's safety is our top priority.<br><br>
+                        📱 Mobile Responsiveness: In a mobile-first world, we ensure your website looks and performs flawlessly on all devices.
+                    </p>
+                    <img class="featured-image" src="assets/img/image2.webp" alt="geografis" />
+                </article>
+
+                <article class="card" id="pricing">
+                    <h2 class="h2-head">Our Pricing Option</h2>
+                    <div class="pricing-cards">
+                        <div class="card-pricing">
+                            <h2>Basic Plan</h2>
+                            <p class="price">$19/month</p>
+                            <ul>
+                                <li>Feature 1</li>
+                            </ul>
+                            <button class="btn">Select Plan</button>
+                        </div>
+                        <div class="card-pricing">
+                            <h2>Pro Plan</h2>
+                            <p class="price">$39/month</p>
+                            <ul>
+                                <li>Feature 1</li>
+                                <li>Feature 2</li>
+                            </ul>
+                            <button class="btn">Select Plan</button>
+                        </div>
+                        <div class="card-pricing">
+                            <h2>Premium Plan</h2>
+                            <p class="price">$79/month</p>
+                            <ul>
+                                <li>Feature 1</li>
+                                <li>Feature 2</li>
+                                <li>Feature 3</li>
+                            </ul>
+                            <button class="btn">Select Plan</button>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </article>
+        <aside>
+            <article class="card profile">
+                <header>
+                    <h2>Wahyu Ivan | Software Engineer</h2>
+                    <p>Denpasar, Bali</p>
+                    <figure>
+                        <img src="assets/img/wahyu.jpg" alt="Wahyu Image" />
+                    </figure>
+                </header>
+                <section class="profile-desc">
+                    <h3>About Owner</h3>
+                    <div id="table-container">
+                        <table class="profile-table">
+                        </table>
+                    </div>
+                </section>
+            </article>
+        </aside>
+    </main>
+    <footer>
+        <p>Introsoft Digital Services &copy; <span id="currentYear"></span>, All Right Reserved</p>
+    </footer>
+    <script type="text/javascript" src="scripts.js"></script>
+</body>
+</html>
